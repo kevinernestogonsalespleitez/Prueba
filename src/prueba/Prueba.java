@@ -3,7 +3,8 @@ package prueba;
 public class Prueba {
 
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+        suma obj = new suma();
+        System.out.println("total = "+obj.Sumando());
     }
     
 }
