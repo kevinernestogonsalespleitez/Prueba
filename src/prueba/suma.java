@@ -11,4 +11,12 @@ public class suma {
         }
         return total;
     }
+    public int restando(){
+        for(int i = 0;i<2;i++){
+            System.out.println("Digite un numero");
+            int suma = obj.nextInt();
+            total = total-suma;
+        }
+        return total;
+    }
 }
