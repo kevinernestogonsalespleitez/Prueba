@@ -15,7 +15,7 @@ public class suma {
         for(int i = 0;i<2;i++){
             System.out.println("Digite un numero");
             int suma = obj.nextInt();
-            total = total-suma;
+            total = suma-total;
         }
         return total;
     }
